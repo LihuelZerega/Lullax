@@ -5,7 +5,7 @@ const nextConfig = {
   
   export const reactStrictMode = true;
 export const images = {
-    domains: ['assets.coingecko.com', 'assets-global.website-files.com', 'aceternity.com', 'framerusercontent.com', "lullax.com"],
+    domains: ['assets.coingecko.com', 'res.cloudinary.com', 'aceternity.com', 'framerusercontent.com', "lullax.com"],
 };
 
   nextConfig

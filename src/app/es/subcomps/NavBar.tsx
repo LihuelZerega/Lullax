@@ -14,14 +14,13 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ScrollShadow } from "@nextui-org/scroll-shadow";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { MdConnectWithoutContact } from "react-icons/md";
 import {
   FaRegBuilding,
   FaRegFileAlt,
   FaUserFriends,
   FaBloggerB,
 } from "react-icons/fa";
-
-////////////////////////////////////////////
 import UserIcon from "@/images/user-stroke-rounded.svg";
 import ShoppingBag01Icon from "@/images/shopping-bag-01-stroke-rounded.svg";
 
@@ -30,31 +29,31 @@ const MancuernasAjustables = [
     name: "NEO40",
     description: "Mancuerna Ajustable 40,5 kg",
     href: "https://lullax.com/product/mancuerna-ajustable-neo40kg/",
-    icon: "https://lullax.com/wp-content/uploads/2021/12/s-l1600.png",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
   },
   {
     name: "NEO36",
     description: "Mancuerna Ajustable 36 kg",
     href: "https://lullax.com/product/mancuerna-ajustable-neo36-estante/",
-    icon: "https://lullax.com/wp-content/uploads/2021/12/s-l1600.png",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
   },
   {
     name: "NEO32",
     description: "Mancuerna Ajustable 32 kg",
     href: "https://lullax.com/product/mancuerna-ajustable-neo32-32kg/",
-    icon: "https://lullax.com/wp-content/uploads/2021/12/s-l1600.png",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
   },
   {
     name: "M24",
     description: "Mancuerna Ajustable 24 kg",
     href: "https://lullax.com/product/m24-mancuerna-ajustable/",
-    icon: "https://lullax.com/wp-content/uploads/2018/06/0004-medio.png",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/M20_hepxs8.png",
   },
   {
     name: "NEO20",
     description: "Mancuerna Ajustable 20 kg",
     href: "https://lullax.com/product/neo-20-mancuerna-ajustable/",
-    icon: "https://lullax.com/wp-content/uploads/2018/06/Image-2.png",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081698/Lullax/NEO20_lkerme.png",
   },
 ];
 
@@ -62,35 +61,37 @@ const EstanteMancuernas = [
   {
     name: "NEO STAND",
     description: "Soporte especial para las mancuernas NEO",
-    href: "https://lullax.com/product/mancuerna-ajustable-neo40kg/",
-    icon: "https://lullax.com/wp-content/uploads/2022/01/0001-medio-1.png",
+    href: "https://lullax.com/product/neo-stand/",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715082633/Lullax/NEOSTAND_uyxnng.png",
   },
 ];
 
 const BancoDeMusculacion = [
   {
     name: "NEO BENCH",
-    description: "Banco de musculación profesional de alta gama",
-    href: "https://lullax.com/product/mancuerna-ajustable-neo40kg/",
-    icon: "https://lullax.com/wp-content/uploads/2024/01/484a4a0887f83b59d3f8626f3e5475a-1-1-600x338.png",
+    description:
+      "Banco profesional de alta gama construido con materiales resistentes de calidad",
+    href: "https://lullax.com/product/neo-bench/",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715082630/Lullax/NEOBENCH_n8eqtk.png",
   },
 ];
 
 const KettebellsAjustables = [
   {
     name: "NEO KET",
-    description: "Kettlebell ajustable de 22.5 Kg",
-    href: "https://lullax.com/product/mancuerna-ajustable-neo40kg/",
-    icon: "https://lullax.com/wp-content/uploads/2024/03/neoket-2-600x600.jpg",
+    description:
+      "Kettlebell ajustable de 22.5 Kg, con 5 posiciones de peso seleccionables.",
+    href: "https://lullax.com/product/neoket/",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715082631/Lullax/NEOKET_pd15hr.png",
   },
 ];
 
 const BarraConPesosAjustables = [
   {
     name: "NEO BAR",
-    description: "Set barra plana y zeta ajustable",
-    href: "https://lullax.com/product/mancuerna-ajustable-neo40kg/",
-    icon: "https://lullax.com/wp-content/uploads/2024/04/foto-neobar-2-scaled.jpg",
+    description: "Set barra plana y zeta ajustable hasta 36Kg.",
+    href: "https://lullax.com/product/neobar/",
+    icon: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715082630/Lullax/NEOBAR_ik9urk.png",
   },
 ];
 
@@ -118,6 +119,15 @@ const sobrenosotros = [
     description: "Artículos sobre fitness y entrenamiento.",
     href: "https://lullax.com/blog/",
     icon: FaBloggerB,
+  },
+];
+
+const contacto = [
+  {
+    name: "Contacto",
+    description: "Encontrá nuestra información de Teléfono, Email, Redes y Dirección.",
+    href: "https://lullax.com/contact/",
+    icon: MdConnectWithoutContact,
   },
 ];
 
@@ -313,12 +323,12 @@ function NavBar() {
                             key={item.name}
                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                           >
-                            <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                               <Image
                                 src={item.icon}
                                 width={25}
                                 height={25}
-                                className="h-6 w-6 text-gray-600 group-hover:text-[#a482fb]"
+                                className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
                                 aria-hidden="true"
                                 alt={item.name}
                               />
@@ -326,7 +336,7 @@ function NavBar() {
                             <div className="flex-auto">
                               <a
                                 href={item.href}
-                                className="block font-semibold text-gray-900"
+                                className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                               >
                                 {item.name}
                                 <span className="absolute inset-0" />
@@ -347,10 +357,10 @@ function NavBar() {
                             key={item.name}
                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                           >
-                            <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                               <Image
                                 src={item.icon}
-                                className="h-6 w-6 text-gray-600 group-hover:text-[#a482fb]"
+                                className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
                                 width={50}
                                 height={50}
                                 aria-hidden="true"
@@ -360,7 +370,7 @@ function NavBar() {
                             <div className="flex-auto">
                               <a
                                 href={item.href}
-                                className="block font-semibold text-gray-900"
+                                className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                               >
                                 {item.name}
                                 <span className="absolute inset-0" />
@@ -381,10 +391,10 @@ function NavBar() {
                             key={item.name}
                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                           >
-                            <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                               <Image
                                 src={item.icon}
-                                className="h-6 w-6 text-gray-600 group-hover:text-[#a482fb]"
+                                className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
                                 width={50}
                                 height={50}
                                 aria-hidden="true"
@@ -394,7 +404,7 @@ function NavBar() {
                             <div className="flex-auto">
                               <a
                                 href={item.href}
-                                className="block font-semibold text-gray-900"
+                                className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                               >
                                 {item.name}
                                 <span className="absolute inset-0" />
@@ -415,10 +425,10 @@ function NavBar() {
                             key={item.name}
                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                           >
-                            <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                               <Image
                                 src={item.icon}
-                                className="h-6 w-6 text-gray-600 group-hover:text-[#a482fb]"
+                                className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
                                 width={50}
                                 height={50}
                                 aria-hidden="true"
@@ -428,7 +438,7 @@ function NavBar() {
                             <div className="flex-auto">
                               <a
                                 href={item.href}
-                                className="block font-semibold text-gray-900"
+                                className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                               >
                                 {item.name}
                                 <span className="absolute inset-0" />
@@ -449,10 +459,10 @@ function NavBar() {
                             key={item.name}
                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                           >
-                            <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                               <Image
                                 src={item.icon}
-                                className="h-6 w-6 text-gray-600 group-hover:text-[#a482fb]"
+                                className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
                                 width={50}
                                 height={50}
                                 aria-hidden="true"
@@ -462,7 +472,7 @@ function NavBar() {
                             <div className="flex-auto">
                               <a
                                 href={item.href}
-                                className="block font-semibold text-gray-900"
+                                className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                               >
                                 {item.name}
                                 <span className="absolute inset-0" />
@@ -514,7 +524,7 @@ function NavBar() {
                           <div className="flex-auto">
                             <a
                               href={item.href}
-                              className="block font-semibold text-gray-900"
+                              className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                             >
                               {item.name}
                               <span className="absolute inset-0" />
@@ -562,7 +572,7 @@ function NavBar() {
         <div className="fixed inset-0 z-50" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#" className="-m-1.5 p-1.5 pb-6">
               <span className="sr-only">Lullax</span>
               <Image
                 src={LullaxLogo}
@@ -571,17 +581,19 @@ function NavBar() {
                 alt="LullaxLogo"
               />
 
-              <div>
-                <h1 className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white focus:outline-none">
-                  Inicio
-                </h1>
+              {/* <div className="flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none">
+                <Image src={UserIcon} width={24} height={24} alt="UserIcon" className="bg-red-300"/>
               </div>
 
-              <div>
-                <h1 className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white focus:outline-none">
-                  Inicio
-                </h1>
-              </div>
+              <div className="flex items-center gap-x-0.5 text-sm font-semibold leading-6 focus:outline-none">
+                <Image
+                  src={ShoppingBag01Icon}
+                  width={24}
+                  height={24}
+                  alt="ShoppingBag01Icon"
+                  className="bg-red-300"
+                />
+              </div> */}
             </a>
             <button
               type="button"
@@ -596,58 +608,240 @@ function NavBar() {
           <div className="mt-6 flow-root">
             <div className="-my-6 ">
               <div>
-                <h1 className="text-xl font-semibold text-[#a482fb] border-t pt-2 mt-6 mb-2">
-                  Productos
+                <ScrollShadow hideScrollBar className="h-[400px]">
+                  <div className="mt-6">
+                    <h1 className="pb-2 text-lg text-[#2b9f76] font-semibold border-b">
+                      Mancuernas Ajustables
+                    </h1>
+                    {MancuernasAjustables.map((item) => (
+                      <div
+                        key={item.name}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                          <Image
+                            src={item.icon}
+                            width={25}
+                            height={25}
+                            className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
+                            aria-hidden="true"
+                            alt={item.name}
+                          />
+                        </div>
+                        <div className="flex-auto">
+                          <a
+                            href={item.href}
+                            className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
+                          >
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-6">
+                    <h1 className="pb-2 text-lg text-[#2b9f76] font-semibold border-b">
+                      Estante de Mancuernas
+                    </h1>
+                    {EstanteMancuernas.map((item) => (
+                      <div
+                        key={item.name}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                          <Image
+                            src={item.icon}
+                            className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
+                            width={50}
+                            height={50}
+                            aria-hidden="true"
+                            alt={item.name}
+                          />
+                        </div>
+                        <div className="flex-auto">
+                          <a
+                            href={item.href}
+                            className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
+                          >
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-6">
+                    <h1 className="pb-2 text-lg text-[#2b9f76] font-semibold border-b">
+                      Banco de Musculacion
+                    </h1>
+                    {BancoDeMusculacion.map((item) => (
+                      <div
+                        key={item.name}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                          <Image
+                            src={item.icon}
+                            className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
+                            width={50}
+                            height={50}
+                            aria-hidden="true"
+                            alt={item.name}
+                          />
+                        </div>
+                        <div className="flex-auto">
+                          <a
+                            href={item.href}
+                            className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
+                          >
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-6">
+                    <h1 className="pb-2 text-lg text-[#2b9f76] font-semibold border-b">
+                      Kettebells Ajustables
+                    </h1>
+                    {KettebellsAjustables.map((item) => (
+                      <div
+                        key={item.name}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                          <Image
+                            src={item.icon}
+                            className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
+                            width={50}
+                            height={50}
+                            aria-hidden="true"
+                            alt={item.name}
+                          />
+                        </div>
+                        <div className="flex-auto">
+                          <a
+                            href={item.href}
+                            className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
+                          >
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-6">
+                    <h1 className="pb-2 text-lg text-[#2b9f76] font-semibold border-b">
+                      Barra con Pesos Ajustables
+                    </h1>
+                    {BarraConPesosAjustables.map((item) => (
+                      <div
+                        key={item.name}
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      >
+                        <div className="flex h-12 w-12 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                          <Image
+                            src={item.icon}
+                            className="h-8 w-8 text-gray-600 group-hover:text-[#a482fb]"
+                            width={50}
+                            height={50}
+                            aria-hidden="true"
+                            alt={item.name}
+                          />
+                        </div>
+                        <div className="flex-auto">
+                          <a
+                            href={item.href}
+                            className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
+                          >
+                            {item.name}
+                            <span className="absolute inset-0" />
+                          </a>
+                          <p className="mt-1 text-gray-600">
+                            {item.description}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </ScrollShadow>
+              </div>
+
+              <div>
+                <h1 className="text-xl font-semibold text-[#2b9f76] border-b py-2 mt-6 mb-2">
+                  Nosotros
                 </h1>
-                <div>
-                  {MancuernasAjustables.map((item) => (
+                <div className="">
+                  {sobrenosotros.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-3 rounded-lg my-2 py-2 text-sm leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                     >
                       <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <Image
-                          src={item.icon}
-                          className="h-6 w-6 text-gray-600 group-hover:text-[#a482fb]"
-                          width={50}
-                          height={50}
+                        <item.icon
+                          className="h-6 w-6 text-gray-600 group-hover:text-[#2b9f76]"
                           aria-hidden="true"
-                          alt={item.name}
                         />
                       </div>
                       <div className="flex-auto">
                         <a
                           href={item.href}
-                          className="block font-semibold text-gray-900"
+                          className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
-                        <p className="mt-1 text-xs text-gray-600">
-                          {item.description}
-                        </p>
+                        <p className="mt-1 text-gray-600">{item.description}</p>
                       </div>
                     </div>
                   ))}
                 </div>
               </div>
 
-              <div>
-                <h1 className="text-xl font-semibold text-[#a482fb] border-t pt-2 mt-6 mb-2">
-                  Información
+              <div className="mb-12">
+                <h1 className="text-xl font-semibold text-[#2b9f76] border-b py-2 mt-6 mb-2">
+                  Contacto
                 </h1>
-              </div>
-
-              <div>
-                <h1 className="text-xl font-semibold text-[#a482fb] border-t pt-2 mt-6 mb-2">
-                  Compañia
-                </h1>
-              </div>
-
-              <div className="mb-12 sm:mb-0">
-                <h1 className="text-xl font-semibold text-[#a482fb] border-t pt-2 mt-6 mb-2">
-                  Ayuda
-                </h1>
+                <div className="">
+                  {contacto.map((item) => (
+                    <div
+                      key={item.name}
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                    >
+                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                        <item.icon
+                          className="h-6 w-6 text-gray-600 group-hover:text-[#2b9f76]"
+                          aria-hidden="true"
+                        />
+                      </div>
+                      <div className="flex-auto">
+                        <a
+                          href={item.href}
+                          className="block font-semibold text-gray-900 hover:text-[#2b9f76]"
+                        >
+                          {item.name}
+                          <span className="absolute inset-0" />
+                        </a>
+                        <p className="mt-1 text-gray-600">{item.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
