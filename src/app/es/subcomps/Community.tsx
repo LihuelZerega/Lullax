@@ -120,7 +120,7 @@ function Community() {
         </div>
       </section>
 
-      <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
+      {/* <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
@@ -382,7 +382,7 @@ function Community() {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

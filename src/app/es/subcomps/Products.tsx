@@ -82,7 +82,7 @@ const items = [
 
 function Products() {
   return (
-    <section className="py-24 bg-white">
+    <section id="productos" className="py-24 bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
