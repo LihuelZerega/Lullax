@@ -44,7 +44,7 @@ export default function Promo() {
                     <div className="relative mx-auto max-w-9xl px-4 sm:px-6 lg:px-8">
                       <div className="sm:max-w-lg">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                          ¡Anunciamos <span className="text-[#2b9f76]">Rebajas Pre</span>-verano!
+                          ¡Anunciamos <span className="text-[#2b9f76]"> Rebajas Pre</span>-verano!
                         </h1>
                         <p className="mt-4 text-xl text-gray-500">
                           Explora nuestra selección de productos y encuentra los
@@ -65,37 +65,14 @@ export default function Promo() {
                                 <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                   <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                                     <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114987/Lullax/PreRebajas2_drdvbf.png"
                                       alt=""
                                       className="h-full w-full object-cover object-center"
                                     />
                                   </div>
                                   <div className="h-64 w-44 overflow-hidden rounded-lg">
                                     <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                                      alt=""
-                                      className="h-full w-full object-cover object-center"
-                                    />
-                                  </div>
-                                </div>
-                                <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                  <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                    <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                                      alt=""
-                                      className="h-full w-full object-cover object-center"
-                                    />
-                                  </div>
-                                  <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                    <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                                      alt=""
-                                      className="h-full w-full object-cover object-center"
-                                    />
-                                  </div>
-                                  <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                    <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114987/Lullax/PreRebajas1_p7xzmz.png"
                                       alt=""
                                       className="h-full w-full object-cover object-center"
                                     />
@@ -104,14 +81,37 @@ export default function Promo() {
                                 <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                   <div className="h-64 w-44 overflow-hidden rounded-lg">
                                     <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114987/Lullax/PreRebajas3_pbbwqs.png"
                                       alt=""
                                       className="h-full w-full object-cover object-center"
                                     />
                                   </div>
                                   <div className="h-64 w-44 overflow-hidden rounded-lg">
                                     <img
-                                      src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114988/Lullax/PreRebajas4_gs65f0.png"
+                                      alt=""
+                                      className="h-full w-full object-cover object-center"
+                                    />
+                                  </div>
+                                  <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                    <img
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114987/Lullax/PreRebajas2_drdvbf.png"
+                                      alt=""
+                                      className="h-full w-full object-cover object-center"
+                                    />
+                                  </div>
+                                </div>
+                                <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                  <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                    <img
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114987/Lullax/PreRebajas1_p7xzmz.png"
+                                      alt=""
+                                      className="h-full w-full object-cover object-center"
+                                    />
+                                  </div>
+                                  <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                    <img
+                                      src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715114988/Lullax/PreRebajas4_gs65f0.png"
                                       alt=""
                                       className="h-full w-full object-cover object-center"
                                     />

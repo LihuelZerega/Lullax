@@ -38,8 +38,12 @@ export default function HeroSection() {
               Bienvenido a Lullax
             </h1>
             <p className="mt-6 text-lg leading-8 text-neutral-100">
-              Marca española especializada en <span className="border-b-2 border-[#2b9f76]">mancuernas ajustables</span>. Con la
-              mejor calidad y variedad en pesas automáticas.
+              Marca española especializada en{" "}
+              <span className="border-b-2 border-[#2b9f76]">
+                mancuernas ajustables
+              </span>
+              . <br />
+              Con la mejor calidad y variedad en pesas automáticas.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
