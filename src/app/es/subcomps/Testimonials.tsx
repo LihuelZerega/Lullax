@@ -271,7 +271,7 @@ function Testimonials() {
                       {testimonio.name}
                     </p>
                     <blockquote className="mt-3">
-                      <p className="text-lg text-black">"{testimonio.text}"</p>
+                      <p className="text-lg text-black">{testimonio.text}</p>
                     </blockquote>
                   </div>
                 </div>
