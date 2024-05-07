@@ -8,7 +8,7 @@ function Community() {
           <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20">
             <div className="flex flex-col items-start xl:px-16">
               <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">
-                Entrenamientos con nuestras mancuernas ajustables NEO
+              <span className="text-[#2b9f76]">Entrenamientos</span> con nuestras  <span className="text-[#2b9f76]">mancuernas ajustables</span> NEO
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
                 Aprovecha al máximo tus sesiones de entrenamiento con nuestras

@@ -25,8 +25,8 @@ export default function HeroSection() {
         {/* Contenido del Héroe */}
         <div className="relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-neutral-100 ring-1 ring-neutral-100/10 hover:ring-neutral-100/20">
-              Anunciamos Rebajas de Verano!{" "}
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-neutral-100 ring-1 ring-neutral-50/10 hover:ring-neutral-100/20">
+              Anunciamos Rebajas Pre-Verano!{" "}
               <a href="#" className="font-semibold text-[#2b9f76]">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Ver mas <span aria-hidden="true">&rarr;</span>
@@ -35,11 +35,11 @@ export default function HeroSection() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Mancuernas <br /> Ajustables
+              Bienvenido a Lullax
             </h1>
             <p className="mt-6 text-lg leading-8 text-neutral-100">
-              Bienvenido a Lullax, marca española especializada en mancuernas
-              ajustables. Con la mejor calidad y variedad en pesas automáticas.
+              Marca española especializada en <span className="border-b-2 border-[#2b9f76]">mancuernas ajustables</span>. Con la
+              mejor calidad y variedad en pesas automáticas.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

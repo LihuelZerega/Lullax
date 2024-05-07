@@ -40,7 +40,7 @@ export default function Promo() {
             >
               <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-3xl lg:max-w-6xl">
                 <div className="relative overflow-hidden bg-white">
-                  <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-28 lg:pt-20">
+                  <div className="pb-20 pt-16 sm:pb-40 sm:pt-24 lg:pb-28 lg:pt-20">
                     <div className="relative mx-auto max-w-9xl px-4 sm:px-6 lg:px-8">
                       <div className="sm:max-w-lg">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">

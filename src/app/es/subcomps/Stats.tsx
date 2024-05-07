@@ -17,7 +17,7 @@ const stats = [
 export default function Stats() {
   return (
     <>
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-12 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
           {stats.map((stat) => (
@@ -25,7 +25,7 @@ export default function Stats() {
               key={stat.id}
               className="mx-auto flex max-w-xs flex-col items-center gap-y-4"
             >
-              <dt className="text-base leading-7 max-w-xs font-medium text-gray-700">{stat.name}</dt>
+              <dt className="text-lg md:text-xl leading-7 max-w-xs font-medium text-gray-700">{stat.name}</dt>
               <stat.icon
                 className="order-first text-6xl font-semibold tracking-tight sm:text-5xl text-[#2b9f76]"
                 aria-hidden="true"
