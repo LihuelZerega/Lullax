@@ -20,7 +20,7 @@ function Footer() {
               <ul className="flex items-center mt-5 space-x-3 md:order-3 sm:mt-7">
                 <li>
                   <a
-                    href="#"
+                    href="https://web.whatsapp.com/send?phone=34622315675&text=Hola%2C%20estoy%20interesad%40%20en%20los%20productos%20LULLAX%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s."
                     title=""
                     className="flex items-center justify-center text-gray-100 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-[#2b9f76] hover:text-white focus:text-white hover:bg-[#2b9f76] hover:border-[#2b9f76] focus:border-[#2b9f76]"
                   >
@@ -30,7 +30,7 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/lullaxoficial/"
                     title=""
                     className="flex items-center justify-center text-gray-100 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-[#2b9f76] hover:text-white focus:text-white hover:bg-[#2b9f76] hover:border-[#2b9f76] focus:border-[#2b9f76]"
                   >
@@ -49,7 +49,7 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://www.tiktok.com/@lullax"
                     title=""
                     className="flex items-center justify-center text-gray-100 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-[#2b9f76] hover:text-white focus:text-white hover:bg-[#2b9f76] hover:border-[#2b9f76] focus:border-[#2b9f76]"
                   >
@@ -59,7 +59,7 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/LullaxOficial"
                     title=""
                     className="flex items-center justify-center text-gray-100 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-[#2b9f76] hover:text-white focus:text-white hover:bg-[#2b9f76] hover:border-[#2b9f76] focus:border-[#2b9f76]"
                   >
@@ -76,7 +76,7 @@ function Footer() {
 
                 <li>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/channel/UCw-3S_4BfrcjBbWvBScoRBw"
                     title=""
                     className="flex items-center justify-center text-gray-100 transition-all duration-200 bg-transparent border border-gray-300 rounded-full w-7 h-7 focus:bg-[#2b9f76] hover:text-white focus:text-white hover:bg-[#2b9f76] hover:border-[#2b9f76] focus:border-[#2b9f76]"
                   >

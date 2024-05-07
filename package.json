@@ -14,11 +14,14 @@
     "@hugeicons/hugeicons-pro": "^0.0.6",
     "@hugeicons/react-pro": "^0.2.6",
     "@nextui-org/react": "^2.3.6",
-    "framer-motion": "^11.1.8",
+    "@tabler/icons-react": "^3.3.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.1.9",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.2.0"
+    "react-icons": "^5.2.0",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
