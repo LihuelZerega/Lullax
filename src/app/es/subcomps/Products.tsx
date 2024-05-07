@@ -164,7 +164,6 @@ function Products() {
             </motion.div>
           ))}
         </section>
-        ;
       </div>
     </section>
   );

@@ -3,6 +3,9 @@ import NavBar from "./subcomps/NavBar";
 import HeroSection from "./subcomps/HeroSection";
 import Stats from "./subcomps/Stats";
 import Products from "./subcomps/Products";
+import Community from "./subcomps/Community";
+import Testimonials from "./subcomps/Testimonials";
+import Faq from "./subcomps/Faq";
 import Footer from "./subcomps/Footer";
 
 function page() {
@@ -12,6 +15,9 @@ function page() {
       <HeroSection />
       <Stats />
       <Products />
+      <Community />
+      <Testimonials />
+      <Faq />
       <Footer />
     </div>
   );

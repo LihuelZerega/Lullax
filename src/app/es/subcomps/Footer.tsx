@@ -319,14 +319,14 @@ function Footer() {
                 2022. Para ello ha contado con el apoyo del programa TICCámaras
                 de la Cámara de Comercio de Ciudad Real”
               </p>
-            </div>
-
-            <div className="mt-12 sm:mt-0">
-              <p className="text-sm text-gray-200">
+              <p className="my-4 sm:mt-4 text-sm text-gray-200">
                 © Copyright 2024, All Rights Reserved by Lullax S.L.
               </p>
+            </div>
+
+            <div className="sm:mt-0">
               <div>
-                <div className="flex flex-row items-start my-6">
+                <div className="flex flex-row items-start mb-6">
                   <Image
                     src="https://res.cloudinary.com/dszjgdktf/image/upload/v1715086367/Lullax/europa-1-300x254_rzumky.webp"
                     width={200}
