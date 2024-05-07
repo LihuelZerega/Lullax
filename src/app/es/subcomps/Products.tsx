@@ -9,7 +9,7 @@ const items = [
     title: "NEO20",
     description: "Mancuerna Ajustable de 20 Kg | Rango de 2 a 20 Kg",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715099807/Lullax/NEO20_q4pgqw.png",
     image2: "",
     href: "https://lullax.com/product/neo-20-mancuerna-ajustable/",
   },
@@ -17,7 +17,7 @@ const items = [
     title: "M24",
     description: "Mancuerna Ajustable de 24 Kg | Rango de 2,5 a 24 Kg",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715099906/Lullax/M20_gffvzo.png",
     image2: "",
     href: "https://lullax.com/product/m24-mancuerna-ajustable/",
   },
@@ -25,7 +25,7 @@ const items = [
     title: "NEO32",
     description: "Mancuerna Ajustable de 32 Kg | Rango de 4 a 32 Kg",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715099497/Lullax/NEO40_sbdwdj.png",
     image2: "",
     href: "https://lullax.com/product/mancuerna-ajustable-neo32-32kg/",
   },
@@ -40,8 +40,7 @@ const items = [
   {
     title: "NEO40",
     description: "Mancuerna Ajustable de 40,5 Kg | Rango de 4,5 a 40,5 Kg",
-    image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
+    image1:"https://res.cloudinary.com/dszjgdktf/image/upload/v1715100001/Lullax/NEO32_otclzh.png",
     image2: "",
     href: "https://lullax.com/product/mancuerna-ajustable-neo40kg/",
   },
@@ -50,16 +49,16 @@ const items = [
     description:
       "Banco profesional de alta gama construido con materiales resistentes de calidad",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
-    image2: "",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098434/Lullax/NEOBENCH_qfvlki.png",
+    image2: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098434/Lullax/NEOBENCH2_wqdwtp.png",
     href: "https://lullax.com/product/neo-bench/",
   },
   {
     title: "NEO STAND",
     description: "Permite levantar y colocar las mancuernas NEO a media altura",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
-    image2: "",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098589/Lullax/NEOSTAND_vmr5yj.png",
+    image2: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098588/Lullax/NEOSTAND2_myuovi.png",
     href: "https://lullax.com/product/neo-stand/",
   },
   {
@@ -67,16 +66,16 @@ const items = [
     description:
       "Kettlebell ajustable de 22.5 Kg, con 5 posiciones de peso seleccionables.",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
-    image2: "",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098759/Lullax/NEOKET_juo25m.png",
+    image2: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098759/Lullax/NEOKET2_mcmq96.png",
     href: "https://lullax.com/product/neoket/",
   },
   {
     title: "NEO BAR",
     description: "Set barra plana y zeta ajustable hasta 36Kg.",
     image1:
-      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715081699/Lullax/NEO323640_xalq7e.png",
-    image2: "",
+      "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098986/Lullax/NEOBAR_lqg866.png",
+    image2: "https://res.cloudinary.com/dszjgdktf/image/upload/v1715098987/Lullax/NEOBAR2_oas5yf.png",
     href: "https://lullax.com/product/neobar/",
   },
 ];
@@ -103,7 +102,7 @@ function Products() {
                   ? "p-4 rounded-md border border-1 border-neutral-200 md:col-span-2"
                   : "p-4 rounded-md border border-1 border-neutral-200"
               }
-              whileHover={{ scale: 1.05 }}
+              whileHover={{ scale: 1.02 }}
             >
               <a href={item.href} className="hover:text-[#2b9f76]">
                 <div className="w-full flex items-center justify-center bg-neutral-100 rounded-md">
@@ -112,6 +111,7 @@ function Products() {
                     width={260}
                     height={260}
                     alt={item.title}
+                    className="p-2"
                   />
                 </div>
                 <div>

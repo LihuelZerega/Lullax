@@ -6,8 +6,7 @@ function Testimonials() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-5xl">
-            Trusted by <span className="text-blue-600">30k+</span> world
-            className companies & design teams
+            Reseñas sobre nuestras mancuernas ajustables
           </h2>
         </div>
 
