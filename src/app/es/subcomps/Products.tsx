@@ -84,13 +84,13 @@ function Products() {
   return (
     <section className="py-24 bg-white">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-2xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
             Productos
           </h2>
           <p className="my-4 text-lg text-gray-500">
             En nuestra tienda encontrarás productos de alta calidad para tus
-            necesidades.
+            entrenamientos.
           </p>
         </div>
         <section className="grid gap-6 grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto">
