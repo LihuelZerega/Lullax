@@ -2,6 +2,7 @@ import React from "react";
 
 function Faq() {
   return (
+    <>
       <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-2xl mx-auto text-center">
@@ -194,6 +195,7 @@ function Faq() {
           </p>
         </div>
       </section>
+    </>
   );
 }
 

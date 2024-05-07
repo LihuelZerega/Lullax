@@ -3,26 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-// import { BentoGrid, BentoGridItem } from "@/utils/bento-grid";
 
-// export function BentoGridDemo() {
-//   return (
-//     <BentoGrid className="max-w-4xl mx-auto my-24">
-//   {items.map((item, i) => (
-//         <BentoGridItem
-//           key={i}
-//           title={item.title}
-//           description={item.description}
-//           header={item.header}
-//           className={i === 4 || i === 5 || i === 8 ? "md:col-span-2" : ""}
-//         />
-//   ))}
-//     </BentoGrid>
-//   );
-// }
-// const Skeleton = () => (
-//   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
-// );
 const items = [
   {
     title: "NEO20",
@@ -99,25 +80,6 @@ const items = [
     href: "https://lullax.com/product/neobar/",
   },
 ];
-
-// const Products = () => {
-//   return (
-//     <section className="py-24 bg-white">
-//       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-//         <div className="max-w-2xl mx-auto text-center">
-//           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-//             Productos
-//           </h2>
-//           <p className="mt-4 text-lg text-gray-500">
-//             En nuestra tienda encontrarás productos de alta calidad para tus
-//             necesidades.
-//           </p>
-//         </div>
-//         <BentoGridDemo />
-//       </div>
-//     </section>
-//   );
-// }
 
 function Products() {
   return (

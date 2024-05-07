@@ -2,10 +2,125 @@ import React from "react";
 
 function Community() {
   return (
-    <div>
-      <div>Entrenamientos</div>
-      <div>Unboxings</div>
-      <section className="py-10 bg-neurtal-50 sm:py-16 lg:py-24">
+    <div className="">
+      <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20">
+            <div className="flex flex-col items-start xl:px-16">
+              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">
+                Entrenamientos con nuestras mancuernas ajustables NEO
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Aprovecha al máximo tus sesiones de entrenamiento con nuestras
+                mancuernas ajustables NEO. Diseñadas para adaptarse a cualquier
+                nivel de condición física, estas mancuernas te brindan la
+                versatilidad que necesitas para realizar una amplia gama de
+                ejercicios, desde entrenamientos de fuerza hasta ejercicios de
+                acondicionamiento cardiovascular.
+              </p>
+            </div>
+
+            <div className="grid relative sm:hidden grid-cols-2 gap-6 mt-10 md:mt-0">
+              <iframe
+                width="330"
+                height="480"
+                src="https://www.youtube.com/embed/6AeuuWKLloM"
+                title="Presentación Mancuernas Lullax NEO por @manuelbarrenatrainer8691"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="aspect-w-3 aspect-h-4 rounded-md"
+              />
+            </div>
+
+            <div className="hidden relative lg:grid xl:hidden grid-cols-2 gap-6 mt-10 md:mt-0">
+              <iframe
+                width="210"
+                height="480"
+                src="https://www.youtube.com/embed/6AeuuWKLloM"
+                title="Presentación Mancuernas Lullax NEO por @manuelbarrenatrainer8691"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="aspect-w-3 aspect-h-4 rounded-md"
+              />
+
+              <iframe
+                width="210"
+                height="480"
+                src="https://www.youtube.com/embed/i1RO4sil_c8"
+                title="😁❗No lo dejes pasar❗Aprovecha el descuento del 5% nuestro compañero @tonichorpa y ahorra un 5%"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="aspect-w-3 aspect-h-4 rounded-md"
+              />
+            </div>
+
+            <div className="hidden relative xl:grid grid-cols-2 gap-6 mt-10 md:mt-0">
+              <iframe
+                width="270"
+                height="480"
+                src="https://www.youtube.com/embed/6AeuuWKLloM"
+                title="Presentación Mancuernas Lullax NEO por @manuelbarrenatrainer8691"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="aspect-w-3 aspect-h-4 rounded-md"
+              />
+
+              <iframe
+                width="270"
+                height="480"
+                src="https://www.youtube.com/embed/i1RO4sil_c8"
+                title="😁❗No lo dejes pasar❗Aprovecha el descuento del 5% nuestro compañero @tonichorpa y ahorra un 5%"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                className="aspect-w-3 aspect-h-4 rounded-md"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col-reverse md:flex-row items-stretch gap-y-10 md:gap-x-20">
+            <div className="relative overflow-hidden w-full pb-56 sm:pb-80 md:w-1/2">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-md"
+                src="https://www.youtube.com/embed/r3Eqi-Z7v3Y"
+                title="Unboxing completo Mancuernas Ajustables NEO40 LULLAX + NEOSTAND"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
+            </div>
+
+            <div className="flex flex-col items-start xl:px-16 md:w-1/2">
+              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+                Unboxing y comparativas
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Descubre las últimas novedades en el mundo del fitness con
+                nuestra serie de unboxing y comparativas. En cada episodio, te
+                mostramos nuestros productos, desde mancuernas ajustables hasta
+                equipos de entrenamiento de última generación. Prepárate para
+                tomar decisiones informadas y llevar tu rutina de ejercicios al
+                siguiente nivel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex items-end justify-between">
             <div className="flex-1 text-center lg:text-left">
