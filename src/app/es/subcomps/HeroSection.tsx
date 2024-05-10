@@ -35,29 +35,29 @@ export default function HeroSection() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Bienvenido a Lullax
+              Especialistas en mancuernas automáticas
             </h1>
-            <p className="mt-6 text-lg leading-8 text-neutral-100">
+            {/* <p className="mt-6 text-lg leading-8 text-neutral-100">
               Marca española especializada en{" "}
               <span className="border-b-2 border-[#2b9f76]">
                 mancuernas ajustables
               </span>
               . <br />
               Con la mejor calidad y variedad en pesas automáticas.
-            </p>
+            </p> */}
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#productos"
                 className="rounded-md bg-[#2b9f76] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#00a76c] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2b9f76]"
               >
-                Ver Productos
+                Rebajas Verano
               </a>
-              <a
+              {/* <a
                 href="https://lullax.com/sobre-lullax/"
                 className="text-sm font-semibold leading-6 text-neutral-100"
               >
                 Conocer mas <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
