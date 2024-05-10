@@ -309,7 +309,7 @@ function Footer() {
 
           <div className="flex flex-col sm:flex sm:flex-row sm:items-start sm:justify-between">
             <div className="w-full sm:max-w-xs lg:max-w-2xl">
-              <p className="text-sm text-gray-200">
+              {/* <p className="text-sm text-gray-200">
                 “Lullax, S.L. ha sido beneficiaria del Fondo Europeo de
                 Desarrollo Regional cuyo objetivo es mejorar el uso y la calidad
                 de las tecnologías de la información y de las comunicaciones y
@@ -318,13 +318,13 @@ function Footer() {
                 productividad de la empresa. Esta acción ha tenido lugar durante
                 2022. Para ello ha contado con el apoyo del programa TICCámaras
                 de la Cámara de Comercio de Ciudad Real”
-              </p>
+              </p> */}
               <p className="my-4 sm:mt-4 text-sm text-gray-200">
                 © Copyright 2024, All Rights Reserved by Lullax S.L.
               </p>
             </div>
 
-            <div className="sm:mt-0">
+            {/* <div className="sm:mt-0">
               <div>
                 <div className="flex flex-row items-start mb-6">
                   <Image
@@ -349,7 +349,7 @@ function Footer() {
                   Fondo Europeo de Desarrollo Regional.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

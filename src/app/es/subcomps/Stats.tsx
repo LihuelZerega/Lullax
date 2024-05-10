@@ -25,9 +25,9 @@ export default function Stats() {
               key={stat.id}
               className="mx-auto flex max-w-xs flex-col items-center gap-y-4"
             >
-              <dt className="text-lg md:text-xl leading-7 max-w-xs font-medium text-gray-700">{stat.name}</dt>
+              <dt className="text-md md:text-lg leading-7 max-w-xs font-medium text-gray-700">{stat.name}</dt>
               <stat.icon
-                className="order-first text-6xl font-semibold tracking-tight sm:text-5xl text-[#2b9f76]"
+                className="order-first text-5xl font-semibold tracking-tight text-[#2b9f76]"
                 aria-hidden="true"
               />
             </div>

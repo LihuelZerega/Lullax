@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./subcomps/NavBar";
 import HeroSection from "./subcomps/HeroSection";
 import Stats from "./subcomps/Stats";
+import TruspilotImage from "./subcomps/TruspilotImage";
 import Products from "./subcomps/Products";
 import Community from "./subcomps/Community";
 import Testimonials from "./subcomps/Testimonials";
@@ -16,10 +17,11 @@ function page() {
       <NavBar />
       <HeroSection />
       <Stats />
+      <TruspilotImage />
       <Products />
       <Community />
       <Testimonials />
-      <Faq />
+      {/* <Faq /> */}
       <Footer />
     </div>
   );

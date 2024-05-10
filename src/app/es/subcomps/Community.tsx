@@ -3,7 +3,7 @@ import React from "react";
 function Community() {
   return (
     <div className="">
-      <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
+      {/* <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="grid items-stretch gap-y-10 md:grid-cols-2 md:gap-x-20">
             <div className="flex flex-col items-start xl:px-16">
@@ -87,10 +87,14 @@ function Community() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="py-10 bg-neutral-50 sm:py-16 lg:py-24 px-4 lg:px-8">
+      <section className="pb-10 bg-neutral-50 sm:pb-16 lg:pb-24 px-4 lg:px-8">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <h2 className="text-center text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl xl:px-16 py-10 sm:py-16 lg:py-24">
+            <span className="border-b-3 border-[#2b9f76]">Unboxing</span> y{" "}
+            <span className="border-b-3 border-[#2b9f76]">comparativas</span>
+          </h2>
           <div className="flex flex-col-reverse md:flex-row items-stretch gap-y-10 md:gap-x-20">
             <div className="relative overflow-hidden w-full pb-56 sm:pb-80 md:w-1/2">
               <iframe
@@ -103,20 +107,27 @@ function Community() {
               />
             </div>
 
-            <div className="flex flex-col items-start xl:px-16 md:w-1/2">
-              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-                Unboxing y comparativas
-              </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+            {/* <div className="flex flex-col items-start xl:px-16 md:w-1/2"> */}
+            <div className="hidden md:block relative overflow-hidden w-full pb-56 sm:pb-80 md:w-1/2">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-md"
+                src="https://www.youtube.com/embed/6kKK8VvCYq8"
+                title="Unboxing completo Mancuernas Ajustables NEO40 LULLAX + NEOSTAND"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+              />
+            </div>
+            {/* <p className="mt-4 text-base leading-relaxed text-gray-600">
                 Descubre las últimas novedades en el mundo del fitness con
                 nuestra serie de unboxing y comparativas. En cada episodio, te
                 mostramos nuestros productos, desde mancuernas ajustables hasta
                 equipos de entrenamiento de última generación. Prepárate para
                 tomar decisiones informadas y llevar tu rutina de ejercicios al
                 siguiente nivel.
-              </p>
-            </div>
+              </p> */}
           </div>
+          {/* </div> */}
         </div>
       </section>
 

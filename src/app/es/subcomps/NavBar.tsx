@@ -125,7 +125,8 @@ const sobrenosotros = [
 const contacto = [
   {
     name: "Contacto",
-    description: "Encontrá nuestra información de Teléfono, Email, Redes y Dirección.",
+    description:
+      "Encontrá nuestra información de Teléfono, Email, Redes y Dirección.",
     href: "https://lullax.com/contact/",
     icon: MdConnectWithoutContact,
   },
@@ -547,18 +548,22 @@ function NavBar() {
               </h1>
             </Link>
 
-            <div className="flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none">
-              <Image src={UserIcon} width={18} height={18} alt="UserIcon" />
-            </div>
+            <Link href={"https://lullax.com/mi-cuenta/"}>
+              <div className="flex items-center gap-x-1 text-sm font-semibold leading-6 focus:outline-none">
+                <Image src={UserIcon} width={18} height={18} alt="UserIcon" />
+              </div>
+            </Link>
 
-            <div className="flex items-center gap-x-0.5 text-sm font-semibold leading-6 focus:outline-none">
-              <Image
-                src={ShoppingBag01Icon}
-                width={18}
-                height={18}
-                alt="ShoppingBag01Icon"
-              />
-            </div>
+            <Link href={"https://lullax.com/carrito/"}>
+              <div className="flex items-center gap-x-0.5 text-sm font-semibold leading-6 focus:outline-none">
+                <Image
+                  src={ShoppingBag01Icon}
+                  width={18}
+                  height={18}
+                  alt="ShoppingBag01Icon"
+                />
+              </div>
+            </Link>
           </div>
         </div>
       </nav>

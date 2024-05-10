@@ -13,6 +13,7 @@ import TestimonialImage6 from "@/images/Testimonials/6.png";
 import TestimonialImage7 from "@/images/Testimonials/7.png";
 import TestimonialImage8 from "@/images/Testimonials/8.png";
 import TestimonialImage9 from "@/images/Testimonials/9.png";
+import { NextArrow, PrevArrow } from "./Arrows";
 
 const testimonios = [
   {
@@ -95,9 +96,10 @@ function Testimonials() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />
   };
 
   const settingsDesktop = {
@@ -105,7 +107,6 @@ function Testimonials() {
     infinite: true,
     speed: 200,
     slidesToShow: 3,
-    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1300,
   };
@@ -231,7 +232,7 @@ function Testimonials() {
             {testimonios.map((testimonio) => (
               <div
                 key={testimonio.id}
-                className="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6"
+                className="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center gap-x-3"
               >
                 <div className="overflow-hidden bg-white rounded-md shadow mx-4 h-96">
                   <div className="flex flex-col justify-items-stretch px-8 py-12">
